@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Login credentials are i…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "RqmS9ePbs0Cmr44QYfmVKA",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/RqmS9ePbs0Cmr44QYfmVKA",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-06T08:11:43.5155085Z",
+  "Updated": "2025-11-06T08:11:43.5155085Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

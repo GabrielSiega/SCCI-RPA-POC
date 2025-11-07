@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="u_bTg3UJFEuS94Wsr_RuZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/apps/a/scccidemo" DesignTimeRectangle="8, 147, 1920, 893" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='wtf-gen158' tag='DIV' /&gt;" Guid="6723704e-957e-4f93-93db-480abc7a656d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SCCCI Workspace - Deskera' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5c05287415aec7b43a43547b27c71bd5.png" xmlns="">09IgFwGPIfU2LHQTEcihy1g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="CXeB5yuwS0KH4kW_52TuRQ" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="B7jvNFkwWEKMJ20hz6ZUyg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN1AAADdQB75G6FQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANeSURBVDhPXZNfaFtVHMePg/ngg0gQ8cG6uYex96IwNoaMrtRJBzpQhE58kCnSh0izCM1IaNL0srRd08asTZPOaKoz2dbVJNc0997m35qStPe2N7n35mbJTZNqi50igntRmHwlFxrE78s5D+f7/fH78D2EEEIAPAPgSPveltFo7DGbzd87HI5f3W73X3Nzcxs+n2/QYDA8f/imo/+aLRbLOYqiMgsLC4jH48hmUlhfSyOXzYLneWxsbOzNzs6aCCGdYXpA+7RarR94vd4/8/k8ZFlGVVXAZHn4I1k8fLiGYqEATdOQy+UwNDQUIoQ82wkZGRk54/F4nvCCgEajjl/2dvF4v4nr8+s4Z2SRzPLY1Sqo11TU63WwLNsOmdTNNpvtiNPpTLcnNxt1VGs7oAIpLCWLcH69ibeHU4inS7DfovHVvTRUpQxFkRGNRv8ZGxs7TQYHB88EAgHIsoTdVhPGiR9hOD+O4cm7oEKb6L3GIJ6V0ftZEF1vTWDhTgJlkYeqqgiHw15iMpkCbWBaTcX9JI/XLnnw3tBtNHd24AgW8frHEWyWNXB5Cd0D8zj74YwOtVwqgaZpnoyOjiqrqxxqVQVfuBPoujiJ75YzAJ7imjuJ4/1uZAoSDvaaME3SeLXPBX/oAcqigGQy+TOZnp5uZjIZnfrV0ShO9E8gVxDx9O8n8IYLuGyOYJ2X0NJUUH4Gr/SNw3XrDqSS0Ia5T4LBYEwQeDTqVVz3snipZxyhBxn88ds+lKqGwpYKqVxCRS7hE8cSuvpuYP6b+zpMjuMqJJFIXGk0NPzU0hBLbeNY/wwuXPWjyItoNSrQqmWosojZb1mcuuzF2Ss3kU6tovao2mZwl/h8vuc0TWs9PjiAWpFhnqLxwpsuvDHghc2zjKnbND61h3HynS9x/KILM/4IpNIWxJKIxcXF9/UucBz30dpaHopURrG4iWF3FKfe9cBw3oUXe8bxcu8ETg/MwD0fwbZQ1MtE0zTX3d19tNNGp9PpisdpiNsCioU87kU53PAtwzoVgTuwhBWG0ye3zalUSqEo6kTHfCi73f75D9Ho76IooiQKOmmlvIVHFUnfWRAEMAwTtVgsx/7v7chms50Mh8PWWCzGMgwjsSxb4zhufWVlJRAKhS4RQvTPd6h/AYe2f4HYZuBOAAAAAElFTkSuQmCC" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g" Selector="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" Url="https://memdb.tech/auth/login?service=https%3A%2F%2Fmemdb.tech%2Fapps%2Fa%2Fscccidemo%2F&amp;subdomain=scccidemo" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0e4cda20924cca0ffa6dc6e76505ef1.jpg" xmlns="">0jLtWzpb8BUCDJ3SsgJwFrw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

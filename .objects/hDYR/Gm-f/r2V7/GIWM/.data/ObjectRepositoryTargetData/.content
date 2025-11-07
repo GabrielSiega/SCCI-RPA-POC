@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ax-iBiamtkSN8N_Hg5Ldkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/crm/a/scccidemo" CVScreenId="c41b09b1-f63d-4c3b-9223-e080000062a3" CvElementArea="112, 52, 1683, 38" CvType="InputBox" DesignTimeRectangle="165, 59, 1581, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='SCCCI Workspace - CRM - Google Chrome - Gab' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="a7730094-b6fe-48cc-b3fd-b6a25fc98975" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SCCCI Workspace - CRM - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e5c93ffb44530b863cacf7775cf7463b.png" xmlns="">0-723UWSyBE28k-T3z1VUCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

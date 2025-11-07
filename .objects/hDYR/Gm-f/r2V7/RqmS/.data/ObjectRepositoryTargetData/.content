@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G9sNtiSnuE6yKeRabKNaLQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/auth/login" DesignTimeRectangle="888, 657, 179, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='usrFeedback' tag='SPAN' /&gt;" Guid="4b832105-fc29-4c32-8305-14c81d01d77b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2a307a01b1f11172d6bf4e64f502b088.png" xmlns="">0RoF4pAcjrUmkRT8ovYFSYQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

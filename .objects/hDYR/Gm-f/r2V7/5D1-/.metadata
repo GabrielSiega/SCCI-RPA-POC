@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Deskera CRM",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "5D1-7llX7U-cFpqANrERWA",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/5D1-7llX7U-cFpqANrERWA",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-06T08:15:50.4195387Z",
+  "Updated": "2025-11-06T08:15:50.4195387Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

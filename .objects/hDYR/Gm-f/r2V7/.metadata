@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Login - Deskera",
+  "Type": "Screen",
+  "Id": "r2V7tpQkik6b5gqniYj80g",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/Gm-fdVBpe0mO74XfNJBenQ",
+  "Created": "2025-11-06T07:32:23.1292796Z",
+  "Updated": "2025-11-06T07:32:23.1292796Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

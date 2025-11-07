@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Login - Deskera",
+  "Type": "App",
+  "Id": "hDYRuv5rMUSHSfx75ehJ-w",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/hDYRuv5rMUSHSfx75ehJ-w",
+  "Created": "2025-11-06T07:32:22.96696Z",
+  "Updated": "2025-11-06T07:32:22.96696Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

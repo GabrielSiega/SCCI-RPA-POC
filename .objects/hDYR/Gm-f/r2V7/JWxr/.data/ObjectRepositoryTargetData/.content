@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6Ro1r4OCTE6e6pDDAsLs9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/auth/login" CVScreenId="f90cf162-86b0-42d9-9bc2-54eef09467fb" CvElementArea="787, 649, 89, 46" CvTextArea="809, 661, 46, 22" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="789, 650, 86, 43" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='LoginButton' tag='INPUT' /&gt;" Guid="ec38e02f-e1c8-41ba-bc9d-72cfb642943e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1ba7f344997d9a17c391d4c7df34b4b6.png" xmlns="">03Kp-Jeu5qk-zSTiWUctCSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

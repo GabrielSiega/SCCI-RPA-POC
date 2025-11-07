@@ -1,0 +1,377 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>System.Security.Authentication</x:String>
+      <x:String>System.Net.Cache</x:String>
+      <x:String>System.Net.NetworkInformation</x:String>
+      <x:String>System.Net.Security</x:String>
+      <x:String>System.Net.Sockets</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.Validation</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.Features</AssemblyReference>
+      <AssemblyReference>System.Net.NetworkInformation</AssemblyReference>
+      <AssemblyReference>System.Net.Ping</AssemblyReference>
+      <AssemblyReference>System.Net.Sockets</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1186,3005" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Login - Deskera" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,2982" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,2788" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="lo0p" />
+              <Variable x:TypeArguments="x:Boolean" Name="clicksuccess" />
+              <Variable x:TypeArguments="x:Boolean" Name="loginError" />
+              <Variable x:TypeArguments="x:Boolean" Name="loginSuccess" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT UserName(2)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Text="LiuXiao" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="memdb.tech/auth/login" CVScreenId="f90cf162-86b0-42d9-9bc2-54eef09467fb" ContentHash="-ljpHuMv2UeAcD8O4eN4Fw" CvElementArea="788, 514, 360, 46" CvType="InputBox" DesignTimeRectangle="789, 515, 358, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='UserName' tag='INPUT' /&gt;" Guid="ff615f8a-29ab-4787-9139-8331cc9e7ee7" InformativeScreenshot="b6b7b9fd8febf4410c5396ec77fe1877.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/rnz3m69a_kGQPohCDP8DnQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,298" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Text="Dance@2Night" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="memdb.tech/auth/login" CVScreenId="f90cf162-86b0-42d9-9bc2-54eef09467fb" ContentHash="DzkoFFVSWkuE50BGQifBzw" CvElementArea="787, 571, 360, 46" CvType="InputBox" DesignTimeRectangle="789, 572, 358, 45" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='Password' tag='INPUT' /&gt;" Guid="2ea56cf6-a4c8-442a-93dd-da5acaf1621e" InformativeScreenshot="4416d0ffcc27252c0b96b1505653899f.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/Lx_u_S9vWkeaHtAwoB0x6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="[Nothing]" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="memdb.tech/auth/login" CVScreenId="f90cf162-86b0-42d9-9bc2-54eef09467fb" ContentHash="bn-XGMhDhEymc8_Ipc37cA" CvElementArea="787, 649, 89, 46" CvTextArea="809, 661, 46, 22" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="789, 650, 86, 43" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='LoginButton' tag='INPUT' /&gt;" Guid="aa79f369-2ded-49f1-8585-7c5f120493fd" InformativeScreenshot="1ba7f344997d9a17c391d4c7df34b4b6.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/OrSgonq4QEa-X4NO8WPTYg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <If Condition="[loginError]" sap:VirtualizedContainerService.HintSize="452,877" sap2010:WorkflowViewState.IdRef="If_4">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,369" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckElement Result="{x:Null}" DelayBefore="0" DisplayName="Check Element 'Login credentials are i…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NCheckElement_2" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V5">
+                    <uix:NCheckElement.Target>
+                      <uix:TargetAnchorable BrowserURL="memdb.tech/auth/login" ContentHash="G9sNtiSnuE6yKeRabKNaLQ" DesignTimeRectangle="888, 657, 179, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='usrFeedback' tag='SPAN' /&gt;" Guid="4b832105-fc29-4c32-8305-14c81d01d77b" InformativeScreenshot="2a307a01b1f11172d6bf4e64f502b088.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/RqmS9ePbs0Cmr44QYfmVKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheckElement.Target>
+                  </uix:NCheckElement>
+                  <ui:LogMessage DisplayName="Login Error : Check Credentials" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Error" Message="[&quot;Login Error : Check Credentials&quot;]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,369" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckElement Result="{x:Null}" DelayBefore="0" DisplayName="Check Element 'DIV wtf-gen158'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NCheckElement_1" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V5">
+                    <uix:NCheckElement.Target>
+                      <uix:TargetAnchorable BrowserURL="memdb.tech/apps/a/scccidemo" ContentHash="u_bTg3UJFEuS94Wsr_RuZA" DesignTimeRectangle="8, 147, 1920, 893" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='wtf-gen158' tag='DIV' /&gt;" Guid="6723704e-957e-4f93-93db-480abc7a656d" InformativeScreenshot="5c05287415aec7b43a43547b27c71bd5.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/5KICjtLzUEi1vVVn3kOKBA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SCCCI Workspace - Deskera' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheckElement.Target>
+                  </uix:NCheckElement>
+                  <ui:LogMessage DisplayName="Log Message: &quot;Login Successful&quot;" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Login Successful&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Deskera CRM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="memdb.tech/apps/a/scccidemo" CVScreenId="33305172-3337-4f20-b837-a8d49d64de33" ContentHash="JB0c6NapskSH7ZBk9T-ggA" CvElementArea="795, 411, 64, 63" CvType="Icon" DesignTimeRectangle="793, 412, 70, 63" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='getappsSwitchto' tag='IMG' type='' class='templateThumbImg' aaname=' ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7b04ad89-34c8-42d5-abcb-f1a7f6adfb5d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEoAAABDCAYAAAA735O5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABOtSURBVHhe7Zt3VFTX2ofvH9+3bvLZYjSJiRqvPV4nxZhEY0Ms2AuCDcWGihVBRcSKBQEVEJAmCmgwYENERUWlg0jvDDOAdKQMVUAs+X3r3eMczgzVZNa6uG7etZ61zDBnn9/7nH3KTPb8A39Xh+ofii/8XS3X36I6WH9K1B9/vIWkLAnZohsQp3siPtqy05EYa8Oy5WT6oqpCpNjCe9d7iSJBxQWheBp2COFBxkhNNEfBs7MoynNETYUbaircOwluqJG4oarsPApzbZErtkB6oiXKShIVW+pwdVjU61cvkBRrg7BAY4jTrNFQ64m3jTfxttEHbxtv4e0r384FZWLZvPHm5TW8afBAdaktnok88KrxpWJ77VaHRL1+XY+4SHM8CTmIihJ3vGm4iTcvb+HNS98PhFt40+CN1/VeeP3CBXlZLqivr1Nss83qkKiUOHtEBO1HddklvK6nHfp8oHjjdZ0nXtU6I1fshYaGBsVWW612RZWXJiL00W6UFpzDqxfX8OrFjQ+ca3hVewkNlXbIEEajsbFRseUWq11RMREnkBxjisYaLzTWXON4UeGNvOz7SEoIRlxsaKeEslFGysrP3ljzOxqrz0GUYovCwkL88ccfim03qzZFvWyQINjfABWFznhZ6YmXlV6M+ooriI4KQmpKPMRiEXJycpCfn4+CgoJOAWWhTJSNMlJWyizLL+3FFS9KLBEWGowXL14ott6s2hRVlBeKJ4FGqC93R335ZY5csQ8SE6ORnZ3NjkhZWRkkEgkqKipQWVn5H4UyUJbS0lKWjTJSVsrM76G+3BUNEhv4eDsxue1Vm6Iy028gNdoEdSWuqCu5xBEffRcZwjS2AwpVU1OD+vp6dnHsDFAWykTZKKNQmMYy83uoK72AhjIbeF0+gsTERLx580axfblqU1RKvDvECcdQW3wetUVuHJFht5EpFqGkpIQFevnyJdtRZ4IyUTbKSFkpM7+HF8UuqCs5A/cLRggODmZy26o2RSXGnEdW4nHUFDijJt+FIzzYB1lZmeyI1dXV4fXr1x26ICrWq+IcVPt7odLbASUWG1DutA8lJzehxEIXpQ7GkHhaoy4+RHGzdouyUCbKRhkpK2Xm91Bb4Ii6Yiucd9wFPz8/VFdXKw4jV22Kio9yQVbCUVTnOqAqx4kjJOA6st+JoiNBR/B9RdUnP0GlhznqHl5GzQ071Fy3ReVFU0gc90Jybj8qLpmh9IwBnpvrIn+vBkrOGqFB3LGPIJSFMlE2ykhZKTO/h+o8e9QWnoaLowFu376NqqoqxWHkqk1RcU+dkRl7GFVZtqjMPMsR4O+F7Gx5Ue9bryUlKNo+GaX7FqDEaB6eG85G8a6ZKNJXQ6HeVORvVUXeZhXk6k5E7tapyDfSQI7eLOQfXMFmYnslJyo7k2Xm91CVbYPa/JNwcTCAr68vuxG0Ve2KEkcfQoXIGpIMGw5/Pw82nekO876iMp4lIiYlmP271MagXUk568fh2bqxyF79C7K0f0KWzkSIV42BxNtJcWi5komijJSVMvN7qBBboSbXXEmiIp0gerofkvTTKE+15Ljn646sLPF7iSJBRvaLsMJiEHTMxrDX6PpTqDcFxTulkgq2tyVpNDJXjIJ42fcQLf0eGSt/QZGVvuJuuJIXJWaZ+T1IhKdQ/cxUSaKeOCIjYi/KUsxRmmTB4XvjPDIzOy7K7ZYZFh8ZgDVnhjG0Tw9B4FNf9rdCYw0U6k+Xl7RxglTSWnlJomXfI2PJtxBq/hvp6t8gTfNb5OxepLg7VnxRlJUy83soTzVDVdYxuNjrK0eUMNwQJQnH8TzOlMPnihMyM0Xtiqp5UYXdNgux8tQQrLYehjUyzgyDkb06e0+1vyfyt6i0KUmsxZOk8U7SgmFInTsYyXMGo9Biq+KuFUSJWGZ+D6VJx1EhMlGOqNgIR6SH7EZxjAmKoo5wXPOwYx8P2hJFkraYq0L71BA2g2SsspSy/MRAdjpS5W6fjrxNkxQk/cyT9B0ylgiaJM0fyiSlzB6IpBkDkKD6BSrvecjtny+KslJmfg/P40wgER6Ci/0OZYhyQFqgAYqeHkRhRBOeblYQizLaFGXmugVa5oOwQoZFEystBmPlycE4eXEbe6/E00oqSYckjWGSMle2Lyl5xgAkTe+HeJUvkDJnIN7UNt3i5USJMlhmfg/FUQchSd2vHFEx4Q5IfaSHgnBj5Ic0ccnZHKI2RIXE3IbGof5YZvovxnIZJwZyaJkNxMJ9fVFUmsMazF43hknKUpS0uGVJSTO+RuL0fkiY8hXiJ3+B2PG9UGC2mcvAF0VZKTO/h8InxihLNsa5s8oQFWaPZP+tyA82RG5AE672xyDKELYqatXhH7HkyNdSjsoYgKXH5Fl2fABcb5qxbUqdD/Mk/SAvaeFwTlLyrH81kxQ36TPEjPuUvS6bVXKiMoQsM7+HglBDlCYYKU9U0v3NyH28E8/8DTicbQ4hIyO9RVF3gj2gvr8vNA/1e0d/aB6WsliGiYyvsXj/MHY9o4dI8eIRUklL25E0jSdp4mdsNsWM/QTRY3qg0k96reKLoqyUmd9DXtBOlMTtxrmzesoQdRYJd3XxzF8PWX7bOexPGSND2LIo3eMqUN/3FdT3E32xSMYBKRrEQaIfx9UH9mzbYuudTZIWjWhD0pctSiKe7V3OxpITJUxnmfk95DzSw/PonThnpwxRoXZI8NVBlt9miH03cZw5sRvC9LRmomhmzNTrjQVGX0rZK2UhYSzjK6gTJPMdKw6OYtvTA2jGouGcpNT5Q5EyZ5BUklr7kogktf5sLL4oykqZ+T1kP9iCoqd6cLbbrgxRtoj3WYNM3w0Qea/nOGWyA+npqc1E0UeTubu+wLzdPAylzGf0wfw9TSwwkjLPsA87Zaly92i0LUmldUlE3K/d2Th8UZSVMvN7yLq7EUUR2+BsqwxRIbaI814N0c11EF5dw2F2YAvS05qLuuB9ArP1P2PMMeCx83PM5bNLRpNQ/VNz2RhsVmn+W3r7Z5L6I3FaX56k3ogd92mLkoiYsT3YGHKi0lJZZn4Pmbd0UBi2Bc6225Qhygax11ZCeG0V0n5fyXF0z3qkpaY0E+V68wRmbu8lRa8XZjF6S9khZTahT0iFyqTSNrIPy1TUbLH9Pog3qiJR9XM5SdGtSJKhKIqyssy8HkTeq5EfrKscUdFBNoj2WoY0z+VIubSU45DB6lZFqW3p+Y5Pobb1U8zgs43ohZmETOg7SOrRk9JZpVh0R6Qn77wTm9kMo1mjKIc/o+h7K0VRlJnfg/DqCuQFrleeqKjflyD1tyVIctXgMN6mhdSU5GaiLnibYtrGHpim+0kTmz7BdI6emL5ZihrBl7rlU1w+1AfPLw9B+f2NqIw4h/rcJMVIrEjE8wsnkLFmPLsm8UW1dI2irJSZ30Oa51LkPloLJxuliLJGpIcmki8uQoLLAo7dmxYjNSWpmah7IZ5Q1emOKesV2NADU2VsbIIvdZ7uJ8hyH4TaMAFqQwSoCRSgwncESjwnofz+LlTF3cGbuubfQtIDZk2oL/JMNyFVQ4B0zZHS1+VEJbHM/B5SPTSR83A1nGy2KkFUoDUiL6oj6cJ8xDvO4dBftwApyc1FZealYtluAVTWdMXktTK6SVnXDaoydIjuHCRz3+aeUkFBAtQ8FqDmoQA1DwSo9hOg+o4A1b4CFDkOQenV5ZAEWLY622TffvJFUVbKzO8h5eJCPLu/Ek5nlCQqwnU+EpxnI9ZuBsdW7TlITkpsJopK58AkTF7THRO1u2DSKgVWd4EKoyuTycfn+FeoCWhZUNVNAapuCFB1TYBKLwEqfxegzGUEiuxGocxnFyojPZvNNr4oykqZ+T0kXZiLbD8tOJ3Z8tdFRQVYI/z8XMTZz0C09VSOjUvVWhV15uIerN77M8ZrfcyYsILHyv/jmEhoS1Fb1QXFbkOkgu7xBPnwBF2RCqr0EKDikgAVbgJUXBCgwkUAiZMAReZDIQm7zOVQFEWZ+T0kOM9C5u1lyhJlhXAXmk1TEXVahWOdpiqSEhNaFEW3+LV7f8XsDf3w69J/4tdl/8Q4xkdSljcxntD6GIbrujUX5M0T5CkVVNmCIIkD8QOKLYajsSyXy8EXRVkpM7+HeMfpyLy1GE5nNv91UU8fWyLMiWaTCiLNx3OsWjABSYnxLYqi2nNqCbaZTMfU1b2kstrhxsE+7Qty5wlyfiforADltgJUus5EkctSuQzyouJZZn4PsXZTIL6pASdrJYkKdZiGqNPj8cR0DMfyWb8gMaF1UfQdk7bhz9iwfyImaHVpJobPlGUfsYv0nxFUfkaAyosLUGI9GrXCULkMfFGUlTLze4ixmQTRjYVKEvXoNELspiDSfCzCj4zmWDxtFBLj41oVRXXlniM2HVRlshTl8Dm8oQeqrgtQJRN0mSfIlSfIUV5QubUAFeenM4pcdRR3Ly8qPo5l5vcQbTkeGVfnK0nUw1MItlVBpOlPCDv0PcfCyQIkxMe2KYrq9AUDbDWZjlWGP7U6s4IP920S9BtP0HmeIHt5QQTNJKLQbnazOx4VXxRlpcz8HqJOjoHwyhw4WW1SjqigMxMRcWwUQvYLOOZPGIGEuPZFUclk0cyarN1DTtLcZR+hxGn4ewkqt/kBVZeXSCWZj2r1eUpOVFwsy8zvIdL8J6R7zoKjskQFWo1DuMm3CN77DcessUMQ30FRVE5eR6B7UJVd4NW3DGk67db3QMVFnqBzPEF2CoLoVDuniuqra1HpNhcFpye0KomKL4qyUmZ+D09MRyHt8gw4WipF1EkEnB6LsIMjEWQ4lEPtp4GIj43psCiq0Bg/7Dg+FzuOzcKmQ6pYqi9AhOl3zQRJSJCN/AwiQVVe2kxSqe04FLqua/F045ecqNgYlpnfQ8TR75D223Q4WuoqQZT/SQScHIPQ/d8gcNcgjik/9ENcbHSLomglydu3b9lrr169YuuU6D20/K/oeT7OeZli/f7JMD6ihorra1B9UxtVnnS9mQmJ0zhIHMcxMXTLr/xNA9XX1zPKz89FntMSFMfcY0t0aO0TjUlj0z5oX7RP2jd/NQtlpKyUmd9D+BEBUi9NVY6oSH8LPDL/GcF7h+Kx/gAOFUEfxMZENVvNIpNEoel1aoiWLdISwWfPnkEsFiM9PR3Jycm44mEGkccuFDjNR5mbJieE4+palJxbgDz7hUhx2YZ4/2tsZRxtS2PQWDSmbGkk7Yv2SfumDLQ+iv6bMsbFRLPM/B7CDo1AirsqHC03KkOUOR6aj0aQ0SA80uvHMf6b3oiJlhdFkt5HFDUdHx+P2NhYxAbeRcyt84jxkSc6LBAxMTHsPfTejoqiPHxRlJUy83sIPTAMyW4qShRlNgqBhv/Cw21fcowd2hPRUZEoLy9n01+24o5/2tFrtIab1lTSyrfa2lrWDC3YotOBGqDtCWqUFqe2BP1N9j7Zgloag8aiMWls2gfti/YpO/3o35SNtqOslJnfQ8i+IUi+MAkOShN14gcE7e6Ph1s+5/hlUHdEPgln6yMpMAWlYB2BjnhrULN8FP/OR3FcRSgTZaOMlJUy83sI2TsQyecnKEdUdKAtHpmPQuCufvDf1JtDdXhX3L3tw9Zz0xGjQHT06OjSdP9PQhkoC2WibJTx3t3bmDysq1wPwUYDkHxhAhxOK0FUQsRFPLT4EUG7++HBxp4ch2d0w3rtxcjKymJBnj9/zp0anQHKQpkoG2WkrAfVujX1oNsTIcYDkHpJBZamShAlSnmMh1a/IMT4a/jrfoIHG3pwaI/+GMvVZ+HGVU/43fHFA7878L93t1NAWSgTZaOMlJWf3X9TT4QfHgzhNTXs1N+MO3fu/LXFrmVlpbjvNANPjg3Dw809cX99NzmOzvgYqoP/F+MG/E+nhLJRRrncG7rh0fbeiDo5EkG/LYKenh4ePXrU7s882hRFGz+4fgCxZ0cjcOcXeLChG+7rdPmg8d/YHcFGfZHiNg5mBzSxb98+9ghCN4i2qk1RdPdIiItEqNssRJkNR8D2XvDf0BUPdLp8kPhv7IZAg88Ra/UtIq6oY8WK5bCxsWHXsfbWybcpiqq4uBjXPE5BeG0KYk8PRbhxbwQbdEPQji4I0vtA2NEVIbt64MnBPkg8OxLCW3Owfs1CbNsm/X969GzWXrUrip5HaGqeP2uAbL/pELqNRKJ1X8Se+BTRR7sj6nCXzotJV5YxzqI3ku0GQOz5I5LvzMfOrTSbVrDZJBQK2ZnTXrUriqYk3XLv3buHkyf0kHRfHYX+45DjPRKZvw+C+FJ/iNz7QuT2VefCvS/El75GlucQ5N76HsVBU3DlnCY0NeZh+fLlOHr0KEJDQ9mH645Uu6KoyHhRURGbpnTxszLTQuANTRRHzUT508koi5iI0vDxKA0f1zmIGM8ylUdNQX7EHNz3WgyDbQuhrq4OHR0dWFhYIDAwkD1vtXdtklWHRFGRLLpePX78GFZWVuz81tLSwiptdehtVYfeloWdjiWL52PevHlYtGgRVq1ahT179sDd3Z19wKYHzI58jyarDouiooHpo0FaWhp7SHNwcICJiQkMDQ1hYGAAfX39TgVlMjIywrFjx+Di4oKAgADk5eWx625HZ5Ks3kuUrGh20RHJzc1FSkoKoqKi2PlOPxDsTFAmuhHRgaVfgtK3De8zi/j1p0TxS/YjQtlPVDsTsm813nf2tFR/WdR/S/0tqoP1t6gO1v8D0enrr2OqguUAAAAASUVORK5CYII=" InformativeScreenshot="2edf078493dae91e27a0213915f04246.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/5D1-7llX7U-cFpqANrERWA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SCCCI Workspace - Deskera' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="33305172-3337-4f20-b837-a8d49d64de33" CvTextArea="791, 479, 72, 13" CvTextArgument="Deskera CRM" CvType="Text" DesignTimeRectangle="792, 479, 71, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='getappsSwitchto' tag='SPAN' type='' class='templateThumbSpan' aaname='Deskera CRM' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Deskera CRM' /&gt;" Guid="b3732e8b-cd64-4b05-bf7c-bb72350460db" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <If Condition="[clicksuccess]" sap:VirtualizedContainerService.HintSize="452,550" sap2010:WorkflowViewState.IdRef="If_5">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,194" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NCheckElement Result="{x:Null}" DelayBefore="0" DisplayName="Check Element 'memdb.techcrmascccid…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,134" sap2010:WorkflowViewState.IdRef="NCheckElement_3" ScopeIdentifier="951cae10-4699-42e9-8e58-211eb1f59e3f" Version="V5">
+                    <uix:NCheckElement.Target>
+                      <uix:TargetAnchorable BrowserURL="memdb.tech/crm/a/scccidemo" CVScreenId="c41b09b1-f63d-4c3b-9223-e080000062a3" ContentHash="ax-iBiamtkSN8N_Hg5Ldkg" CvElementArea="112, 52, 1683, 38" CvType="InputBox" DesignTimeRectangle="165, 59, 1581, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='SCCCI Workspace - CRM - Google Chrome - Gab' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="a7730094-b6fe-48cc-b3fd-b6a25fc98975" InformativeScreenshot="e5c93ffb44530b863cacf7775cf7463b.png" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/GIWMhcYb6Ua3c8F4rrhn0Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SCCCI Workspace - CRM - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NCheckElement.Target>
+                  </uix:NCheckElement>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Click Deskera CRM Succesful" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Clicked on Deskera CRM Successfully&quot;]" />
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="CXeB5yuwS0KH4kW_52TuRQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN1AAADdQB75G6FQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANeSURBVDhPXZNfaFtVHMePg/ngg0gQ8cG6uYex96IwNoaMrtRJBzpQhE58kCnSh0izCM1IaNL0srRd08asTZPOaKoz2dbVJNc0997m35qStPe2N7n35mbJTZNqi50igntRmHwlFxrE78s5D+f7/fH78D2EEEIAPAPgSPveltFo7DGbzd87HI5f3W73X3Nzcxs+n2/QYDA8f/imo/+aLRbLOYqiMgsLC4jH48hmUlhfSyOXzYLneWxsbOzNzs6aCCGdYXpA+7RarR94vd4/8/k8ZFlGVVXAZHn4I1k8fLiGYqEATdOQy+UwNDQUIoQ82wkZGRk54/F4nvCCgEajjl/2dvF4v4nr8+s4Z2SRzPLY1Sqo11TU63WwLNsOmdTNNpvtiNPpTLcnNxt1VGs7oAIpLCWLcH69ibeHU4inS7DfovHVvTRUpQxFkRGNRv8ZGxs7TQYHB88EAgHIsoTdVhPGiR9hOD+O4cm7oEKb6L3GIJ6V0ftZEF1vTWDhTgJlkYeqqgiHw15iMpkCbWBaTcX9JI/XLnnw3tBtNHd24AgW8frHEWyWNXB5Cd0D8zj74YwOtVwqgaZpnoyOjiqrqxxqVQVfuBPoujiJ75YzAJ7imjuJ4/1uZAoSDvaaME3SeLXPBX/oAcqigGQy+TOZnp5uZjIZnfrV0ShO9E8gVxDx9O8n8IYLuGyOYJ2X0NJUUH4Gr/SNw3XrDqSS0Ia5T4LBYEwQeDTqVVz3snipZxyhBxn88ds+lKqGwpYKqVxCRS7hE8cSuvpuYP6b+zpMjuMqJJFIXGk0NPzU0hBLbeNY/wwuXPWjyItoNSrQqmWosojZb1mcuuzF2Ss3kU6tovao2mZwl/h8vuc0TWs9PjiAWpFhnqLxwpsuvDHghc2zjKnbND61h3HynS9x/KILM/4IpNIWxJKIxcXF9/UucBz30dpaHopURrG4iWF3FKfe9cBw3oUXe8bxcu8ETg/MwD0fwbZQ1MtE0zTX3d19tNNGp9PpisdpiNsCioU87kU53PAtwzoVgTuwhBWG0ye3zalUSqEo6kTHfCi73f75D9Ho76IooiQKOmmlvIVHFUnfWRAEMAwTtVgsx/7v7chms50Mh8PWWCzGMgwjsSxb4zhufWVlJRAKhS4RQvTPd6h/AYe2f4HYZuBOAAAAAElFTkSuQmCC" InformativeScreenshot="c0e4cda20924cca0ffa6dc6e76505ef1.jpg" Reference="AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g" Selector="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" Url="https://memdb.tech/auth/login?service=https%3A%2F%2Fmemdb.tech%2Fapps%2Fa%2Fscccidemo%2F&amp;subdomain=scccidemo" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

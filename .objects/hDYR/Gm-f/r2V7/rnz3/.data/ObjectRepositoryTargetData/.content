@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-ljpHuMv2UeAcD8O4eN4Fw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/auth/login" CVScreenId="f90cf162-86b0-42d9-9bc2-54eef09467fb" CvElementArea="788, 514, 360, 46" CvType="InputBox" DesignTimeRectangle="789, 515, 358, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='UserName' tag='INPUT' /&gt;" Guid="ff615f8a-29ab-4787-9139-8331cc9e7ee7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - Deskera' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b6b7b9fd8febf4410c5396ec77fe1877.png" xmlns="">0JHNpTqixFkmDg8b0Ny4O0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
