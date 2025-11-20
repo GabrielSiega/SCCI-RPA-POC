@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Leads(1)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "WDWmFw7G3Uqotcxfx37cAQ",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/WDWmFw7G3Uqotcxfx37cAQ",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-20T15:52:33.9587682Z",
+  "Updated": "2025-11-20T15:52:33.9587682Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

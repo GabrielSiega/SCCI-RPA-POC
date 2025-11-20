@@ -19,6 +19,51 @@
           }
         }
       },
+      "AWSSDK.Core/3.7.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.WorkDocs/3.7.0.68": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.3.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.WorkDocs.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.WorkSpaces/3.7.1.42": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.3.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.WorkSpaces.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Azure.Core/1.18.0": {
         "type": "package",
         "dependencies": {
@@ -1950,16 +1995,29 @@
           }
         }
       },
-      "Polly/7.1.0": {
+      "Polly/7.2.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -4665,7 +4723,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "UiPath/25.10.155.37129": {
+      "UiPath/25.10.158.57528": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -4694,7 +4752,135 @@
           "lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.AppSignatures/25.10.155.37129": {
+      "UiPath.AmazonWorkSpaces.Activities/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.WorkDocs": "3.7.0.68",
+          "AWSSDK.WorkSpaces": "3.7.1.42",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Polly": "7.2.2",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "UiPath.CodedWorkflows": "24.4.2",
+          "UiPath.ConnectionClient": "1.4.2-20221020.8",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.API.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.AppSignatures/25.10.158.57528": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5728,11 +5914,11 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities/25.10.19": {
+      "UiPath.UIAutomation.Activities/25.10.20": {
         "type": "package",
         "dependencies": {
-          "UiPath.UIAutomation.Activities.Runtime": "[25.10.19]",
-          "UiPath.UIAutomation.Design.RecoveryPanel": "[25.10.19]"
+          "UiPath.UIAutomation.Activities.Runtime": "[25.10.20]",
+          "UiPath.UIAutomation.Design.RecoveryPanel": "[25.10.20]"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5897,21 +6083,21 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime/25.10.19": {
+      "UiPath.UIAutomation.Activities.Runtime/25.10.20": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
-          "UiPath": "[25.10.155.37129]",
+          "UiPath": "[25.10.158.57528]",
           "UiPath.Activities.RuntimeGovernance": "1.1.7",
-          "UiPath.AppSignatures": "25.10.155.37129",
+          "UiPath.AppSignatures": "25.10.158.57528",
           "UiPath.CodedWorkflows": "24.10.1",
           "UiPath.ImageProcessing": "23.4.0",
           "UiPath.OCR.Activities": "3.24.0",
           "UiPath.OCR.Contracts": "2.19.0",
           "UiPath.Platform": "25.10.0",
           "UiPath.Telemetry.Client": "2.5.26",
-          "UiPath.UIAutomation.Activities.Runtime.Design": "[25.10.19]",
+          "UiPath.UIAutomation.Activities.Runtime.Design": "[25.10.20]",
           "UiPath.Vision": "3.16.0"
         },
         "compile": {
@@ -6094,7 +6280,7 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime.Design/25.10.19": {
+      "UiPath.UIAutomation.Activities.Runtime.Design/25.10.20": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -6103,7 +6289,7 @@
           "lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll": {}
         }
       },
-      "UiPath.UIAutomation.Design.RecoveryPanel/25.10.19": {
+      "UiPath.UIAutomation.Design.RecoveryPanel/25.10.20": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -6144,6 +6330,51 @@
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.WorkDocs/3.7.0.68": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.3.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.WorkDocs.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "AWSSDK.WorkSpaces/3.7.1.42": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.3.8, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.WorkSpaces.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -7976,16 +8207,29 @@
           }
         }
       },
-      "Polly/7.1.0": {
+      "Polly/7.2.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
-            "related": ".xml"
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -10665,7 +10909,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "UiPath/25.10.155.37129": {
+      "UiPath/25.10.158.57528": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -10694,7 +10938,135 @@
           "lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll": {}
         }
       },
-      "UiPath.AppSignatures/25.10.155.37129": {
+      "UiPath.AmazonWorkSpaces.Activities/1.4.0": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.WorkDocs": "3.7.0.68",
+          "AWSSDK.WorkSpaces": "3.7.1.42",
+          "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Polly": "7.2.2",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "UiPath.CodedWorkflows": "24.4.2",
+          "UiPath.ConnectionClient": "1.4.2-20221020.8",
+          "UiPath.Telemetry.Client": "1.5.3"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.API.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.Design.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.dll": {},
+          "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.dll": {}
+        },
+        "resource": {
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.resources.dll": {
+            "locale": "zh-CN"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll": {
+            "locale": "zh-TW"
+          },
+          "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.resources.dll": {
+            "locale": "zh-TW"
+          }
+        }
+      },
+      "UiPath.AppSignatures/25.10.158.57528": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11728,11 +12100,11 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities/25.10.19": {
+      "UiPath.UIAutomation.Activities/25.10.20": {
         "type": "package",
         "dependencies": {
-          "UiPath.UIAutomation.Activities.Runtime": "[25.10.19]",
-          "UiPath.UIAutomation.Design.RecoveryPanel": "[25.10.19]"
+          "UiPath.UIAutomation.Activities.Runtime": "[25.10.20]",
+          "UiPath.UIAutomation.Design.RecoveryPanel": "[25.10.20]"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11897,21 +12269,21 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime/25.10.19": {
+      "UiPath.UIAutomation.Activities.Runtime/25.10.20": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.IO.Abstractions": "3.0.10",
-          "UiPath": "[25.10.155.37129]",
+          "UiPath": "[25.10.158.57528]",
           "UiPath.Activities.RuntimeGovernance": "1.1.7",
-          "UiPath.AppSignatures": "25.10.155.37129",
+          "UiPath.AppSignatures": "25.10.158.57528",
           "UiPath.CodedWorkflows": "24.10.1",
           "UiPath.ImageProcessing": "23.4.0",
           "UiPath.OCR.Activities": "3.24.0",
           "UiPath.OCR.Contracts": "2.19.0",
           "UiPath.Platform": "25.10.0",
           "UiPath.Telemetry.Client": "2.5.26",
-          "UiPath.UIAutomation.Activities.Runtime.Design": "[25.10.19]",
+          "UiPath.UIAutomation.Activities.Runtime.Design": "[25.10.20]",
           "UiPath.Vision": "3.16.0"
         },
         "compile": {
@@ -12094,7 +12466,7 @@
           }
         }
       },
-      "UiPath.UIAutomation.Activities.Runtime.Design/25.10.19": {
+      "UiPath.UIAutomation.Activities.Runtime.Design/25.10.20": {
         "type": "package",
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -12103,7 +12475,7 @@
           "lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll": {}
         }
       },
-      "UiPath.UIAutomation.Design.RecoveryPanel/25.10.19": {
+      "UiPath.UIAutomation.Design.RecoveryPanel/25.10.20": {
         "type": "package",
         "compile": {
           "lib/net6.0/_._": {}
@@ -12147,6 +12519,85 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.3.8": {
+      "sha512": "X9HoIetVbSKaYm5LQGo9q/BChvevHPkYdWvHJ4J9LE7ulIGQ8vx305KkQscmQLoj0RNy9/3K4mKiUEeeSa0fuw==",
+      "type": "package",
+      "path": "awssdk.core/3.7.3.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.3.8.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.WorkDocs/3.7.0.68": {
+      "sha512": "lLgB/G6UKJDqQvetBUpGxH0epHAiEula7/z+MzYofOAZXxu22Vqi/dX3/osXttObyBaYCbGUaYJtj1bWdw6yAg==",
+      "type": "package",
+      "path": "awssdk.workdocs/3.7.0.68",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.WorkDocs.CodeAnalysis.dll",
+        "awssdk.workdocs.3.7.0.68.nupkg.sha512",
+        "awssdk.workdocs.nuspec",
+        "lib/net35/AWSSDK.WorkDocs.dll",
+        "lib/net35/AWSSDK.WorkDocs.pdb",
+        "lib/net35/AWSSDK.WorkDocs.xml",
+        "lib/net45/AWSSDK.WorkDocs.dll",
+        "lib/net45/AWSSDK.WorkDocs.pdb",
+        "lib/net45/AWSSDK.WorkDocs.xml",
+        "lib/netcoreapp3.1/AWSSDK.WorkDocs.dll",
+        "lib/netcoreapp3.1/AWSSDK.WorkDocs.pdb",
+        "lib/netcoreapp3.1/AWSSDK.WorkDocs.xml",
+        "lib/netstandard2.0/AWSSDK.WorkDocs.dll",
+        "lib/netstandard2.0/AWSSDK.WorkDocs.pdb",
+        "lib/netstandard2.0/AWSSDK.WorkDocs.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.WorkSpaces/3.7.1.42": {
+      "sha512": "CyrRGoWXd9NRIO7jEJ3xTXJeyddl3MWhJzYzjzePpTun0KlheKln/scefuD+ZOZJjtQd2tgN4HDFTiHMr5/3CA==",
+      "type": "package",
+      "path": "awssdk.workspaces/3.7.1.42",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.WorkSpaces.CodeAnalysis.dll",
+        "awssdk.workspaces.3.7.1.42.nupkg.sha512",
+        "awssdk.workspaces.nuspec",
+        "lib/net35/AWSSDK.WorkSpaces.dll",
+        "lib/net35/AWSSDK.WorkSpaces.pdb",
+        "lib/net35/AWSSDK.WorkSpaces.xml",
+        "lib/net45/AWSSDK.WorkSpaces.dll",
+        "lib/net45/AWSSDK.WorkSpaces.pdb",
+        "lib/net45/AWSSDK.WorkSpaces.xml",
+        "lib/netcoreapp3.1/AWSSDK.WorkSpaces.dll",
+        "lib/netcoreapp3.1/AWSSDK.WorkSpaces.pdb",
+        "lib/netcoreapp3.1/AWSSDK.WorkSpaces.xml",
+        "lib/netstandard2.0/AWSSDK.WorkSpaces.dll",
+        "lib/netstandard2.0/AWSSDK.WorkSpaces.pdb",
+        "lib/netstandard2.0/AWSSDK.WorkSpaces.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Azure.Core/1.18.0": {
@@ -15150,19 +15601,50 @@
         "ntextcat.nuspec"
       ]
     },
-    "Polly/7.1.0": {
-      "sha512": "mpQsvlEn4ipgICh5CGyVLPV93RFVzOrBG7wPZfzY8gExh7XgWQn0GCDY9nudbUEJ12UiGPP9i4+CohghBvzhmg==",
+    "Polly/7.2.2": {
+      "sha512": "E6CeKyS513j7taKAq4q2MESDBvzuzWnR1rQ2Y2zqJvpiVtKMm699Aubb20MUPBDmb0Ov8PmcLHTCVFdCjoy2kA==",
       "type": "package",
-      "path": "polly/7.1.0",
+      "path": "polly/7.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
         "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
         "lib/netstandard1.1/Polly.xml",
         "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
         "lib/netstandard2.0/Polly.xml",
-        "polly.7.1.0.nupkg.sha512",
+        "polly.7.2.2.nupkg.sha512",
         "polly.nuspec"
+      ]
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "sha512": "1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "type": "package",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net461/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net461/Polly.Contrib.WaitAndRetry.xml",
+        "lib/net472/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net472/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net472/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.xml",
+        "polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+        "polly.contrib.waitandretry.nuspec"
       ]
     },
     "RadCommons.core/2.0.1": {
@@ -21516,10 +21998,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "UiPath/25.10.155.37129": {
-      "sha512": "jv9afdItYvGChHOlhFeNQF4zJDprgjmQ452Nv23LrlLQjUmFHeom1CNNSgYw3i1jjKBiJMkYEZ+NY72acv1PAw==",
+    "UiPath/25.10.158.57528": {
+      "sha512": "G0mWA5zQgV1ixHHH0GrhCrTbQMWwPTXSUWMxXngXxIqYBM36I5YgwDUSR/f3BdzBhEUsM2vpqaNhlb96XjAg3w==",
       "type": "package",
-      "path": "uipath/25.10.155.37129",
+      "path": "uipath/25.10.158.57528",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21604,7 +22086,7 @@
         "build/UiPath/libcurl_x64.dll",
         "build/UiPath/libcurl_x86.dll",
         "build/UiPath/net30/WpfHook.dll",
-        "build/UiPath/net6.0-windows/ManagedDotNetCoreHook_25_10_155_37129.dll",
+        "build/UiPath/net6.0-windows/ManagedDotNetCoreHook_25_10_158_57528.dll",
         "build/UiPath/slinject.exe",
         "build/net461/SapAutomationConnectivitySdk.dll",
         "build/net461/SapAutomationLogger.dll",
@@ -21625,7 +22107,7 @@
         "lib/net6.0-windows7.0/UiPath.DriverCore.dll",
         "lib/net6.0-windows7.0/UiPath.Interop.dll",
         "lib/net6.0/UiPath.Locator.dll",
-        "uipath.25.10.155.37129.nupkg.sha512",
+        "uipath.25.10.158.57528.nupkg.sha512",
         "uipath.nuspec"
       ]
     },
@@ -21643,10 +22125,121 @@
         "uipath.activities.runtimegovernance.nuspec"
       ]
     },
-    "UiPath.AppSignatures/25.10.155.37129": {
-      "sha512": "FNyXGGOUHUOJxUQnacYg0Gx/5MXemPaXHuBS682+xLy3JvAuvIZVM094txdizVCtGurEDFJdnQAjtqCq0ZUgug==",
+    "UiPath.AmazonWorkSpaces.Activities/1.4.0": {
+      "sha512": "1j5XN3DNL6kt6wjFjRM+DGLc+Qmmo4NZsHE2+wpvDG3TKd+CBJt1LsVEC7U/qcsrFaCrmwvfv9VCkGmTBlYkkA==",
       "type": "package",
-      "path": "uipath.appsignatures/25.10.155.37129",
+      "path": "uipath.amazonworkspaces.activities/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.AmazonWorkSpaces.Activities.Design.dll",
+        "lib/net461/UiPath.AmazonWorkSpaces.Activities.dll",
+        "lib/net461/UiPath.AmazonWorkSpaces.dll",
+        "lib/net461/de/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/de/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/de/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/es-MX/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/es-MX/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/es-MX/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/es/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/es/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/es/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/fr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/fr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/fr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/ja/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/ja/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/ja/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/ko/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/ko/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/ko/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/pt-BR/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/pt-BR/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/pt-BR/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/pt/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/pt/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/pt/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/ru/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/ru/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/ru/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/tr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/tr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net461/tr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/zh-CN/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/zh-CN/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net461/zh-TW/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net461/zh-TW/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.API.dll",
+        "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.Design.dll",
+        "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.Activities.dll",
+        "lib/net6.0-windows7.0/UiPath.AmazonWorkSpaces.dll",
+        "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/de/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es-MX/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/es/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/fr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ja/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ko/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt-BR/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/pt/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/ru/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0-windows7.0/tr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-CN/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.Design.resources.dll",
+        "lib/net6.0-windows7.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/UiPath.AmazonWorkSpaces.Activities.API.dll",
+        "lib/net6.0/UiPath.AmazonWorkSpaces.Activities.dll",
+        "lib/net6.0/UiPath.AmazonWorkSpaces.dll",
+        "lib/net6.0/de/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/de/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/es-MX/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/es-MX/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/es/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/es/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/fr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/fr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/ja/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/ja/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/ko/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/ko/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/pt-BR/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/pt/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/pt/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/ru/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/ru/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/tr/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "lib/net6.0/tr/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/zh-CN/UiPath.AmazonWorkSpaces.resources.dll",
+        "lib/net6.0/zh-TW/UiPath.AmazonWorkSpaces.Activities.resources.dll",
+        "uipath.amazonworkspaces.activities.1.4.0.nupkg.sha512",
+        "uipath.amazonworkspaces.activities.nuspec"
+      ]
+    },
+    "UiPath.AppSignatures/25.10.158.57528": {
+      "sha512": "UYEsMgZ0JhP0kq6U1+1d1zPrTnBwdIE0S6rM8OcGuxpVBWRn+uM7bX3cNpAqrGmzpD5oUEu4dCywl3YOHO9kXQ==",
+      "type": "package",
+      "path": "uipath.appsignatures/25.10.158.57528",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21657,7 +22250,7 @@
         "build/UiPath.AppSignatures.targets",
         "lib/net461/AppSignatures.Locator.dll",
         "lib/net6.0-windows7.0/AppSignatures.Locator.dll",
-        "uipath.appsignatures.25.10.155.37129.nupkg.sha512",
+        "uipath.appsignatures.25.10.158.57528.nupkg.sha512",
         "uipath.appsignatures.nuspec"
       ]
     },
@@ -22831,10 +23424,10 @@
         "uipath.testing.activities.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities/25.10.19": {
-      "sha512": "Cpy6+XzwdMx50vXJjDziMIx7x2PlBBtNk5NVbuIVuCYh4elK8rT6Htc6S8yGc0cMEqEj0Vo8r/iLddRAJWZJRQ==",
+    "UiPath.UIAutomation.Activities/25.10.20": {
+      "sha512": "Op5vUgRb28WewoA3A7CNI18nw/xXsTC0YG5njffhNCmEIHe6Qempe7oE+SiVQJUoAxVqnR3bRU+aPBsqF5b3HA==",
       "type": "package",
-      "path": "uipath.uiautomation.activities/25.10.19",
+      "path": "uipath.uiautomation.activities/25.10.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22961,14 +23554,14 @@
         "lib/net6.0/ru/UiPath.UIAutomationNext.Activities.Design.resources.dll",
         "lib/net6.0/tr/UiPath.UIAutomationNext.Activities.Design.resources.dll",
         "lib/net6.0/zh-CN/UiPath.UIAutomationNext.Activities.Design.resources.dll",
-        "uipath.uiautomation.activities.25.10.19.nupkg.sha512",
+        "uipath.uiautomation.activities.25.10.20.nupkg.sha512",
         "uipath.uiautomation.activities.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities.Runtime/25.10.19": {
-      "sha512": "vjlNaZZPRdJnpYyv/ZJOnDQO7cuRJKCBWGYk8c6o33aMJBC4Ow2fIDpGmIOZ8P196ZujeRYCP1+jv9jlLEkh2Q==",
+    "UiPath.UIAutomation.Activities.Runtime/25.10.20": {
+      "sha512": "qc7uJZCf5nbJqsMqNE+gdHR/rSHmQrxhnnPxGvUlp7/Z+UfyO12Pon77r7s11Hz4rHyjKkZ74udOCI8Vg7GyfQ==",
       "type": "package",
-      "path": "uipath.uiautomation.activities.runtime/25.10.19",
+      "path": "uipath.uiautomation.activities.runtime/25.10.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23096,14 +23689,14 @@
         "lib/net6.0-windows7.0/zu/UiPath.CV.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.UIAutomationNext.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.UiAutomation.Activities.resources.dll",
-        "uipath.uiautomation.activities.runtime.25.10.19.nupkg.sha512",
+        "uipath.uiautomation.activities.runtime.25.10.20.nupkg.sha512",
         "uipath.uiautomation.activities.runtime.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Activities.Runtime.Design/25.10.19": {
-      "sha512": "fj7D6hhNeVpdgubumFXsCFu1xE0vyPc7+PUTcetDkyoMqcC52sLQzyWS1S9H5IuXdThf/XUxwFU6y+hvmK1d7w==",
+    "UiPath.UIAutomation.Activities.Runtime.Design/25.10.20": {
+      "sha512": "minYvSFY1kAcC6QQ1H9Me0uj4qANVYbTqrMidP/CmislpRww/ftpmvWf0EY0CxmrXZijOf1ShFB/BVhu/wohrQ==",
       "type": "package",
-      "path": "uipath.uiautomation.activities.runtime.design/25.10.19",
+      "path": "uipath.uiautomation.activities.runtime.design/25.10.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23341,14 +23934,14 @@
         "lib/net461/UiPath.UIAutomation.Activities.Runtime.Design.dll",
         "lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
         "lib/net6.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
-        "uipath.uiautomation.activities.runtime.design.25.10.19.nupkg.sha512",
+        "uipath.uiautomation.activities.runtime.design.25.10.20.nupkg.sha512",
         "uipath.uiautomation.activities.runtime.design.nuspec"
       ]
     },
-    "UiPath.UIAutomation.Design.RecoveryPanel/25.10.19": {
-      "sha512": "+yC5f+28aDHPHaXl1W4ZH/czGVqNO3RBWpjdYy1oa9KGQv6zvQjfVWKA5xf3xRoMecVsDaVb+KMyYMWD3F9VQQ==",
+    "UiPath.UIAutomation.Design.RecoveryPanel/25.10.20": {
+      "sha512": "esYyCe/kXEorTIk0B0Q7qaXw17jjudCr0MEqIHLBh0Gyo5cdmRAl+14e0Id9ClPLeD0avhbT2W4pwCyptQedEw==",
       "type": "package",
-      "path": "uipath.uiautomation.design.recoverypanel/25.10.19",
+      "path": "uipath.uiautomation.design.recoverypanel/25.10.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -23474,7 +24067,7 @@
         "content/runtime.js",
         "content/styles.css",
         "lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
-        "uipath.uiautomation.design.recoverypanel.25.10.19.nupkg.sha512",
+        "uipath.uiautomation.design.recoverypanel.25.10.20.nupkg.sha512",
         "uipath.uiautomation.design.recoverypanel.nuspec"
       ]
     },
@@ -23724,11 +24317,12 @@
   "projectFileDependencyGroups": {
     "": [],
     "net8.0-windows7.0": [
+      "UiPath.AmazonWorkSpaces.Activities >= 1.4.0 <= 1.4.0",
       "UiPath.Excel.Activities >= 3.3.0-preview <= 3.3.0-preview",
       "UiPath.Mail.Activities >= 2.5.0-preview <= 2.5.0-preview",
       "UiPath.System.Activities >= 25.10.3 <= 25.10.3",
       "UiPath.Testing.Activities >= 25.10.0 <= 25.10.0",
-      "UiPath.UIAutomation.Activities >= 25.10.19 <= 25.10.19"
+      "UiPath.UIAutomation.Activities >= 25.10.20 <= 25.10.20"
     ]
   },
   "packageFolders": {
@@ -23749,6 +24343,11 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "dependencies": {
+          "UiPath.AmazonWorkSpaces.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.0, 1.4.0]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -23772,7 +24371,7 @@
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[25.10.19, 25.10.19]"
+            "version": "[25.10.20, 25.10.20]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\gabri\\AppData\\Local\\Programs\\UiPath\\Studio\\PortableRuntimeIdentifierGraph.json"

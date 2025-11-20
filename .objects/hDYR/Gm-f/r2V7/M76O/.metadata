@@ -1,0 +1,13 @@
+﻿{
+  "Name": "chrome.exe SCCCI Worksp…",
+  "Type": "Element",
+  "Id": "M76OTAZ1iUWPUUq39lduCQ",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/M76OTAZ1iUWPUUq39lduCQ",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-20T15:56:35.7540962Z",
+  "Updated": "2025-11-20T15:56:35.7540962Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

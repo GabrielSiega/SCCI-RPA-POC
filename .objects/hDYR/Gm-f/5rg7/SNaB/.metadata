@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Verification target",
+  "Type": "Element",
+  "Id": "SNaBIykyZkyCpfvEh13nLA",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/SNaBIykyZkyCpfvEh13nLA",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/5rg7B-KEoUWdPN_qb_8bHg",
+  "Created": "2025-11-20T15:36:55.2072876Z",
+  "Updated": "2025-11-20T15:36:55.2072876Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -15,5 +15,8 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\gabri\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
     <PkgUiPath_Mail_Activities Condition=" '$(PkgUiPath_Mail_Activities)' == '' ">C:\Users\gabri\.nuget\packages\uipath.mail.activities\2.5.0-preview</PkgUiPath_Mail_Activities>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\gabri\.nuget\packages\awssdk.core\3.7.3.8</PkgAWSSDK_Core>
+    <PkgAWSSDK_WorkSpaces Condition=" '$(PkgAWSSDK_WorkSpaces)' == '' ">C:\Users\gabri\.nuget\packages\awssdk.workspaces\3.7.1.42</PkgAWSSDK_WorkSpaces>
+    <PkgAWSSDK_WorkDocs Condition=" '$(PkgAWSSDK_WorkDocs)' == '' ">C:\Users\gabri\.nuget\packages\awssdk.workdocs\3.7.0.68</PkgAWSSDK_WorkDocs>
   </PropertyGroup>
 </Project>
