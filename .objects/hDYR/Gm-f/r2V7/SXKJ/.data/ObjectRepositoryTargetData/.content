@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fG2KQ8-BiU6CrOFj78LJaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/apps/a/scccidemo" CVScreenId="6a69b917-2bb6-496f-8305-151e7a025800" CvElementArea="45, 13, 238, 35" CvType="Button" DesignTimeRectangle="250, 14, 28, 28" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='SCCCI Workspace - Deskera - Google Chrome - Gab' role='pane' /&gt;&lt;ctrl name='SCCCI Workspace - Deskera' role='page tab' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="e57c9ced-4a80-425a-b16d-5a2536ed4262" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACnSURBVFhH7dNBCsMgFEVR9+NAEAUFF+gOdH8uxPIKQqqBYNv4CDi4k5/AP6AKKWVlJvrB6kQIod6R9/6dtbZqrYfFtwP6gDHG8ACtHrEcgI4ICgC1e0ED4E5QAUgpxQU457gAHMPzADHGmlIa5pjhWz+/ahqARaWUD0Sb5ZyH/6+aBqAj4gw001cA1Bb/shw9E0A9grOFSy8h/Rn+uw3YgA3YgA2gA16rhe/gN4xSQgAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SCCCI Workspace - Deskera - Google Chrome' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="257, 19, 16, 16" Guid="0efc8a98-3a87-48a4-9244-3abc55d540b1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABYSURBVDhPY7CxsflPCWZAFyAVDzcDOjo6/k+fPh1DEUgMJIcujmEASOHjx49RDIGJzZgxA0MzhgHohmAzEB1jGIBsCCHNtDGAIi9g00BSIFIcjeTggTcAADee57rKblCOAAAAAElFTkSuQmCC" SearchSteps="Image" TargetType="ImageBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="15" Y="-14" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb6d8e6d9d0632276ac00d09617d8526.png" xmlns="">0ck2IlRVwXkOWU5O-h5VwgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rKVXfDTU806fA1wDCUS7Rg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/crm/a/scccidemo" CVScreenId="f2bcdc14-02d3-44a1-9022-1b5326c1dffd" CvElementArea="779, 267, 62, 62" CvType="Button" DesignTimeRectangle="775, 268, 70, 63" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='wtf-gen323' tag='IMG' type='' class='templateThumbImg' aaname='No Image' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="38588e19-1aeb-4411-921e-612af7a2a7fc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SCCCI Workspace - CRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f2bcdc14-02d3-44a1-9022-1b5326c1dffd" CvTextArea="787, 332, 46, 11" CvTextArgument="Accounts" CvType="Text" DesignTimeRectangle="788, 331, 44, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='wtf-gen324' tag='SPAN' type='' class='templateThumbSpan' aaname='Accounts' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Accounts' /&gt;" Guid="98f8a499-8ad8-4afd-b097-3c8128963cf9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2e87c3faba66a013f5ead4f2168cb2d5.png" xmlns="">044Yjz_O9hUqeOykN_78Ftg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

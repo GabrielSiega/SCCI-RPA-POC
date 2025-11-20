@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8uQoVMdITkCykETDFnYspQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/apps/a/scccidemo" CVScreenId="f1d87d22-4d3a-424d-9fba-7f0fe3f0b950" CvElementArea="112, 52, 1646, 38" CvType="InputBox" DesignTimeRectangle="165, 59, 1545, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='SCCCI Workspace - Deskera - Google Chrome - Gab' role='pane' /&gt;&lt;ctrl name='Address and search bar' role='editable text' /&gt;" Guid="3af75df7-9cef-4232-8ecf-8ae1b1446194" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SCCCI Workspace - Deskera - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="94923a34bceb423b9927adfbec564f65.png" xmlns="">0bNhNtytCYUW-bNrfWJDZ3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

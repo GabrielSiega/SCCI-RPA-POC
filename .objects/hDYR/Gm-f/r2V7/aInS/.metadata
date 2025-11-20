@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SCCCI Workspace - CRM",
+  "Type": "Element",
+  "Id": "aInS7zGq5kCvinXq1xCWiQ",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/aInS7zGq5kCvinXq1xCWiQ",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-09T13:52:59.6154044Z",
+  "Updated": "2025-11-09T13:52:59.6154044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

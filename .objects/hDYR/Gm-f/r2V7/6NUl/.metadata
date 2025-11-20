@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Accounts(2)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "6NUl-O6E90KTp_w8WVNTrA",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/6NUl-O6E90KTp_w8WVNTrA",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-10T03:54:40.8325772Z",
+  "Updated": "2025-11-10T03:54:40.8325772Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lArHmTCA9U6kX_ZvCGwe9A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/accounting/a/scccidemo" CVScreenId="a26cb5f7-1db3-4be4-9db0-2fff81225692" CvElementArea="518, 11, 240, 38" CvTextArea="555, 22, 130, 12" CvTextArgument="SCCCI Workspace - CRM" CvType="Button" DesignTimeRectangle="512, 8, 256, 41" ElementType="TabPage" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='SCCCI Workspace - ERP - Google Chrome - Gab' role='pane' /&gt;&lt;ctrl name='SCCCI Workspace - CRM' role='page tab' /&gt;" Guid="e54cb242-6215-4e37-871d-220b50675c1f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='SCCCI Workspace - ERP - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="86350a91cd88ab57353c4038b26e6074.png" xmlns="">0jUFofIK7i02X9N9zmIU0_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

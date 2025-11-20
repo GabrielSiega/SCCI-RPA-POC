@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_HBh7HA6hUGhgOBfHd_JGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="memdb.tech/crm/a/scccidemo" CVScreenId="d2c71ec6-000d-425c-9494-570cf5e74433" CvElementArea="779, 267, 62, 62" CvTextArea="787, 332, 46, 11" CvTextArgument="Accounts" CvType="Button" DesignTimeRectangle="770, 260, 80, 90" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='wtf-gen190' tag='DIV' /&gt;" Guid="cfc6144b-3e3d-450c-9df9-295b5a425c96" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SCCCI Workspace - CRM' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="662b91d428c42cbbdc0f5f2d85b00fba.png" xmlns="">0dY4Lkr3MNk-yK9Kk8EqPgA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

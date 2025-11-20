@@ -1,0 +1,14 @@
+﻿{
+  "Name": "memdb.techappsasccci…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "V6rmGPGgfUyXL0EiNEUE_A",
+  "Reference": "AKhuQi4HV0SU1iVB5Mb8Ig/V6rmGPGgfUyXL0EiNEUE_A",
+  "ParentRef": "AKhuQi4HV0SU1iVB5Mb8Ig/r2V7tpQkik6b5gqniYj80g",
+  "Created": "2025-11-09T13:51:30.149696Z",
+  "Updated": "2025-11-09T13:51:30.149696Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.19.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
